@@ -1,7 +1,16 @@
-div {
-  color:whitesmoke;
-  background: black;
+body {
+  padding: 20%;
+  margin: 0%;
 }
-ul {
-  color:green;
+.meniu {
+  background: rgb(118, 184, 132);
+  border: 1px solid rgb(199, 53, 53);
+  margin: inherit;
+}
+.att {
+  border: 1px solid rgb(199, 53, 53);
+}
+.pup {
+  background: lightblue;
+
 }
