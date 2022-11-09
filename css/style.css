@@ -7,8 +7,12 @@
 .mainsite {
   max-width: 960px;
   margin: auto;
-  background: rgb(255, 207, 223);
-  padding: 36px 20px;
-  border-radius: 60px;
 
+}
+.headertop {
+  background: url(picture/ch.jpg);
+}
+
+.navup {
+  background-color: rgb(165, 222, 229);
 }
