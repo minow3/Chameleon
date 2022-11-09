@@ -1,16 +1,14 @@
-body {
-  padding: 20%;
-  margin: 0%;
+
+/*main background*/
+.maincore {
+  background-color: rgb(224, 249, 181);
 }
-.meniu {
-  background: rgb(118, 184, 132);
-  border: 1px solid rgb(199, 53, 53);
-  margin: inherit;
-}
-.att {
-  border: 1px solid rgb(199, 53, 53);
-}
-.pup {
-  background: lightblue;
+/*center website*/
+.mainsite {
+  max-width: 960px;
+  margin: auto;
+  background: rgb(255, 207, 223);
+  padding: 36px 20px;
+  border-radius: 60px;
 
 }
