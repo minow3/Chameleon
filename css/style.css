@@ -5,11 +5,11 @@
 }
 /*center website*/
 #mainsite {
-  /*max-width: 60vw;
+  max-width: 60vw;
   margin: 0 auto;
   border: 4px solid black;
   border-radius: 50px;
-  padding: 25px;*/
+  padding: 25px;
   background-color: #FEFDCA;
 }
 #headertop {
@@ -59,4 +59,7 @@
   border-radius: 50px;
   padding: 25px;
   font-size: 3vw;
+}
+#gallery1 {
+  width: 100%;
 }
