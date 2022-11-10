@@ -1,7 +1,7 @@
 
 /*main background*/
 .maincore {
-  background-color: rgb(224, 249, 181);
+  
 }
 /*center website*/
 .mainsite {
@@ -9,12 +9,21 @@
 
 }
 .headertop {
-  background-image: url(“ch.jpg”);
-background-position: center;
-background-repeat: no-repeat;
-position: relative;
-background-size: cover;
+  background-image: url(“picture/ch.jpg”);
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  background-size: cover;
 }
+
+.headertext {
+  text-align: center;
+  position: relative;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: black;
+  }
 
 .navup {
   background-color: rgb(165, 222, 229);
