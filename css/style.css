@@ -1,7 +1,9 @@
+
 /*website background*/
 #maincore {
   background-color: #37726e;
 }
+
 /*Center website*/
 #centerweb{
   max-width: 1080px;
@@ -10,8 +12,13 @@
   border: 4px solid black;
   border-radius: 50px;
 }
+
+/*logo header*/
 .logoheader{
-  padding: 50px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 10px;
+  
 }
 .logo {
   color: black;
@@ -24,7 +31,10 @@
   padding: 10px;
   background-color: #f9bc60;
   text-decoration: none;
+
 }
+
+/* header picture*/
 #hd1 {
   
   border: 4px solid black;
@@ -32,10 +42,21 @@
   width: 100%;
   margin-left: -4px;
 }
+
+/*navigation*/
 nav {
   text-align: center;
-  padding: 50px
+  padding: 50px;
+  
 }
+@media only screen and (max-width: 820px) {
+  nav {
+    text-align: center;
+    padding: 50px;
+    display: grid;
+  } 
+} 
+
 nav a {
   text-align: center;
   color: black;
@@ -46,5 +67,6 @@ nav a {
   padding: 10px;
   background-color: #f9bc60;
   text-decoration: none; 
+  margin-top: -4px;
 
 }
