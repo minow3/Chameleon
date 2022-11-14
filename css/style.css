@@ -33,6 +33,10 @@
   text-decoration: none;
 
 }
+.logo:hover {
+  border: 6px solid black;
+  padding: 15px;
+}
 
 /* header picture*/
 #hd1 {
@@ -70,6 +74,10 @@ nav a {
   text-decoration: none; 
   margin-top: -4px;
 
+}
+nav a:hover {
+  border: 6px solid black;
+  padding: 15px;
 }
 /* index.html main paige*/
 .main {
@@ -134,7 +142,7 @@ nav a {
   border-radius:25px;
 }
 
-@media only screen and (max-width: 820px) {
+@media only screen and (max-width: 840px) {
   .group1 {
     flex: 50%;
     max-width: 100%;
@@ -142,12 +150,11 @@ nav a {
 }
 
 .footer {
-  display: flex;
   text-align: center;
 }
 .f1 {
   color:#f9bc60;
-  font-size: 36px;
+  font-size: 20px;
   padding: 50px;
   display:inline-block;
   text-align: center;
@@ -161,9 +168,17 @@ nav a {
 .footer a:hover {
   font-size: 30px;
 }
-@media only screen and (max-width: 840px) {
-  .footer {
-    display: grid;
-   
-  }
+
+.footernav {
+  text-align: center;
+  padding: 25px;
+}
+.footernav a {
+  color:#f9bc60;
+  text-decoration: none;
+  padding:10px;
+  font-size: 30px;
+}
+.footernav a:hover {
+  font-size: 40px;
 }
