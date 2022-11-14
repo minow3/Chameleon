@@ -112,7 +112,7 @@ nav a:hover {
     border-radius: 25px;
   }
 }
-/* galley.html */
+/* galley.html -------------------------------*/
 .gallery {
   display: flex;
   flex-wrap: wrap;
@@ -151,7 +151,7 @@ nav a:hover {
     max-width: 100%;
   }
 }
-
+/* footer -------------------------*/
 .footer {
   text-align: center;
 }
