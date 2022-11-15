@@ -1,10 +1,10 @@
 
-/*website background-----------------------------*/
+/*---------- website background ----------*/
 #maincore {
   background-color: #37726e;
 }
 
-/*Center website-------------------------*/
+/*--------- centre website ---------*/
 #centerweb{
   max-width: 1080px;
   margin: 0 auto;
@@ -13,13 +13,15 @@
   border-radius: 50px;
 }
 
-/*logo header-------------------------*/
+/*---------- logo header ----------*/
 .logoheader{
   padding-top: 50px;
   padding-bottom: 50px;
   padding-left: 10px;
   
 }
+
+/*---------- logo its self --------*/
 .logo {
   color: black;
   font-size: 50px;
@@ -33,27 +35,29 @@
   text-decoration: none;
 
 }
+
+/*--------- action on logo ----------*/
 .logo:hover {
   border: 6px solid black;
   padding: 10px;
 }
 
-/* header picture-------------------------*/
+/*---------- header picture ---------*/
 #hd1 {
-  
   border: 4px solid black;
   border-radius: 50px;
   width: 100%;
   margin-left: -4px;
 }
 
-/*navigation-------------------------*/
+/*--------- navigation ----------*/
 nav {
   text-align: center;
   padding: 50px;
   
 }
-/* responsive nav adjust phones tablets and other small screens ----------------------------*/
+
+/*---------- responsivnes of screen ---------*/
 @media only screen and (max-width: 760px) {
   nav a {
     text-align: center;
@@ -61,7 +65,8 @@ nav {
     display: grid;
   } 
 } 
-/* nav links + buttons ---------------------------*/
+
+/*--------- nav + buttons ---------*/
 nav a {
   text-align: center;
   color: black;
@@ -75,11 +80,14 @@ nav a {
   margin-top: -4px;
 
 }
+
+/*---------- nav + buttons action -----------*/
 nav a:hover {
   border: 6px solid black;
   padding: 10px;
 }
-/* index.html main paige-----------------------------*/
+
+/*---------- index.html content ----------*/
 .main {
   border: 4px solid black;
   border-radius: 50px;
@@ -88,12 +96,15 @@ nav a:hover {
   background-color: #abd1c6;
   
 }
+
+/*---------- wrap text -----------*/
 .maintext {
   padding: 20px;
   text-align: justify;
   font-size: 25px;
 }
 
+/*----------- picture in text ----------*/
 #in1 {
   float: right;
   margin: 10px;
@@ -102,6 +113,8 @@ nav a:hover {
   border: 4px solid black;
   border-radius: 50px;
 }
+
+/*---------- extra touch for other screens ----------*/
 @media only screen and (max-width: 860px) {
   .maintext {
     font-size: 20px;
@@ -112,7 +125,8 @@ nav a:hover {
     border-radius: 25px;
   }
 }
-/* keeping.html -------------------------------*/
+
+/*---------- keeping.html content ----------*/
 .care {
   border: 4px solid black;
   border-radius: 50px;
@@ -120,11 +134,15 @@ nav a:hover {
   margin-left: -4px;
   background-color: #abd1c6;
 }
+
+/*----------- wrap text for care section ----------*/
 .care div {
   padding: 20px;
   text-align: justify;
   font-size: 25px;
 }
+
+/*---------- care section pictures ----------*/
 #care1 {
   float: right;
   margin: 10px;
@@ -133,10 +151,13 @@ nav a:hover {
   border: 4px solid black;
   border-radius: 50px;
 }
+
+/*---------- adjust for screens ----------*/
 @media only screen and (max-width: 860px) {
   .care div {
     font-size: 20px;
   }
+
   #care1 {
     float: right;
     width: 50%;
@@ -144,20 +165,24 @@ nav a:hover {
   }
 }
 
-/* galley.html -------------------------------*/
+/*---------- gallery.html content ---------*/
 .gallery1 {
   border: 4px solid black;
   border-radius: 50px;
   background-color: #abd1c6;
   width: 100%;
   margin-left: -4px;
-  text-align:center;
+  text-align: center;
   padding-top: 20px;
   padding-bottom: 20px;
 }
+
+/*---------- title text size ----------*/
 .gallery1 p {
   font-size: 30px;
 }
+
+/*----------- pictures added in rows ------------*/
 .row {
   display: flex;
   flex-wrap: wrap;
@@ -165,18 +190,21 @@ nav a:hover {
   justify-content: center;
 }
 
+/*----------- added columns -----------*/
 .column {
   flex: 25%;
   max-width: 30%;
   padding: 0 4px;
 }
 
+/*----------- img respond ------------*/
 .column img {
   margin-top: 8px;
   vertical-align: middle;
   width: 100%;
 }
 
+/*----------- adjusting img for screen -----------*/
 @media screen and (max-width: 800px) {
   .column {
     flex: 50%;
@@ -184,13 +212,15 @@ nav a:hover {
   }
 }
 
+/*----------- adjusting img evon for smoller screens ---------*/
 @media screen and (max-width: 600px) {
   .column {
     flex: 100%;
     max-width: 100%;
   }
 }
-/* contact.html ------------------------------*/
+
+/*---------- contact.html content -----------*/
 .contact {
   border: 4px solid black;
   border-radius: 50px;
@@ -199,14 +229,20 @@ nav a:hover {
   padding-top: 50px;
   padding-bottom: 50px;
 }
+
+/*---------- grid layout for form ----------*/
 .cont1 {
   display: grid;
   padding: 20px;
 }
+
+/*---------- label adjustment -----------*/
 .cont1 label {
   font-size: 30px;
   padding: 15px;
 }
+
+/*---------- inputs corections ----------*/
 .cont1 input {
   padding: 15px;
   border: 4px solid black;
@@ -215,6 +251,7 @@ nav a:hover {
   background-color: #f9bc60;
   width: 50%;
 }
+/*---------- textarea corection -----------*/
 .cont1 textarea {
   border: 4px solid black;
   border-radius: 50px;
@@ -223,6 +260,8 @@ nav a:hover {
   width: 50%;
   padding: 15px;
 }
+
+/*------------ button submit modification -----------*/
 #submit {
   border: 4px solid black;
   border-radius: 50px;
@@ -231,19 +270,22 @@ nav a:hover {
   padding: 10px;
   margin-left: 25px;
 }
+
+/*----------- extra action for submit ---------*/
 #submit:hover {
   border: 6px solid black;
   padding: 10px;
 }
 @media only screen and (max-width: 860px) {
   .cont1 input {
-    width:90%;
+    width: 90%;
   }
   .cont1 textarea {
     width: 90%;
   }
 }
-/* form.html ---------------------------*/
+
+/*---------- form.html content ----------*/
 .submited {
   border: 4px solid black;
   border-radius: 50px;
@@ -251,16 +293,22 @@ nav a:hover {
   margin-left: -4px;
   background-color: #abd1c6;
 }
+
+/*---------- some text ----------*/
 .submited h1 {
   padding-top: 50px;
   padding-bottom: 50px;
   margin-left: 50px;
   font-size: 30px;
 }
+
+/*---------- some text ----------*/
 .submited h2 {
   text-align: center;
   padding-bottom: 25px;
 }
+
+/*---------- link to main page ----------*/
 .submited a {
   text-align: center;
   color: black;
@@ -273,15 +321,20 @@ nav a:hover {
   text-decoration: none; 
   margin-top: -4px;
 }
+
+/*---------- extra action main page link ----------*/
 .submited a:hover {
   border: 6px solid black;
   padding: 15px;
 }
-/* footer -------------------------*/
+
+/*---------- footer ----------*/
 .footer {
   text-align: left;
   margin-left: 50px;
 }
+
+/*---------- footer content ----------*/
 .f1 {
   color:#f9bc60;
   font-size: 20px;
@@ -289,29 +342,40 @@ nav a:hover {
   display:inline-block;
 
 }
+
+/*---------- footer links -----------*/
 .footer a {
   display: grid;
   text-decoration: none;
   color: whitesmoke;
   font-size: 20px;
 }
+
+/*----------- action on footer links ----------*/
 .footer a:hover {
   font-size: 30px;
 }
 
+/*------------ footer navigatio structure ----------*/
 .footernav {
   text-align: center;
   padding: 25px;
 }
+
+/*---------- footer navigation links -----------*/
 .footernav a {
   color:#f9bc60;
   text-decoration: none;
-  padding:10px;
+  padding: 10px;
   font-size: 30px;
 }
+
+/*----------- footer navigation links action -----------*/
 .footernav a:hover {
   font-size: 30px;
 }
+
+/*------------ links adjust for screen ----------*/
 @media only screen and (max-width: 680px) {
   .footer {
     display: grid;
@@ -320,6 +384,8 @@ nav a:hover {
     display:grid;
   }
 }
+
+/*----------- copyrights ------------*/
 #desg {
   color: whitesmoke;
   text-align: center;
