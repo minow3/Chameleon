@@ -113,7 +113,7 @@ nav a:hover {
   }
   #in1 {
     float: right;
-    width: 40%;
+    margin: 10px;
     border-radius: 25px;
   }
 }
