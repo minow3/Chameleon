@@ -32,7 +32,7 @@ The chameleon website is for people curious about  animals and seeking additiona
   - included additional links for web stores, where users can look and buy animals.
   - Added navigation for quick access to content.
 
-![footer](media/readme/footer.png)
+![footer](media/readme/footer1.png)
 
 - __The Gallery__
 
