@@ -8,8 +8,8 @@ The chameleon website is for people curious about  animals and seeking additiona
 
 - __The Header__
 
-  - The Header shows a clear page name on dark teal background.
-  -  Shows a picture that describes the page content.
+  - On top of The Header shows a clear page name Chameleon on dark teal background.
+  - Shows a picture that describes the page content.
 
 ![header](media/readme/header.png)
 
@@ -42,12 +42,15 @@ The chameleon website is for people curious about  animals and seeking additiona
 
 - __Contact form__
 
-
+  - The contact page has a form to pass users' questions and queries.
+  - The form collects the user's name, surname, email, and question or query.
 
 ![contact](media/readme/contactform.png)
 
 - __After Submition__
 
+  - This page was created for better user transition back to the page.
+ 
 ![submition](media/readme/submitedform.png)
 
 
