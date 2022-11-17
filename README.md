@@ -39,3 +39,71 @@ The chameleon website is for people curious about  animals and seeking additiona
   - Provided supporting pictures for users of what a colorful animal is a chameleon.
 
 ![gallery](media/readme/gallery.png)
+
+- __Contact form__
+
+
+
+![contact](media/readme/contactform.png)
+
+- __After Submition__
+
+![submition](media/readme/submitedform.png)
+
+
+# Testing
+
+  - I tested that this page works on devices: PC, Amazon tablet, 55inch Samsung TV, Nintendo Switch, Xiaomi Phone.
+  - Tested on multiple browsers: Opera, Chrome, Edge.
+  - I confirmed that this project is responsive, good looking in most screen sizes.
+  - I confirmed that all text is readable on most devices.
+  - Header, navigation, footer, contact form are readable and easy to understand.
+  - I confirmed that contact form works: requires entries in every field and submit button works.
+
+# Bugs
+
+- Images won't fit in screen in mobile version.
+- I discovered while using phone.
+- Fixed with  max-width: 100%;
+
+# Validator testing
+
+- __HTML__
+  - No errors were returned when passing through the official W3C validator
+- __CSS__
+  - No errors were found when passing through the official (Jigsaw) validator
+- __Accessibility__
+  - I confirm that the colors and fonts chosen are easy to read and accessible by running it through lighthouse in devtools
+
+  - Desktop version:
+![desktop](media/readme/desktopscore.png)
+
+  - Mobile version:
+![mobile](media/readme/mobilescore.png)
+
+# Unfixed Bugs
+
+  - No unfixed bugs
+
+# Deployment
+
+- The site was deployed to GitHub pages. The steps to deploy are as follows: 
+  - In the GitHub repository, navigate to the Settings tab 
+  - From the source section drop-down menu, select the Master Branch
+  - Once the master branch has been selected, the page provides the link to the completed site.
+
+The live link can be found here - [Chameleon](https://minow3.github.io/Chameleon/index.html)
+
+# Credits
+
+- __Content__
+
+  - All information was taken from [PetKeen](https://petkeen.com/do-chameleons-make-good-pets/) website.
+
+- __Media__
+
+  - Pictures were taken from our trusted source [Pexels](http://www.pexels.com)
+
+- __Code__
+
+  - Gallery code was used from [W3School](https://www.w3schools.com/howto/howto_css_image_grid_responsive.asp)
